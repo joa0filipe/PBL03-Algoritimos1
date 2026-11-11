@@ -16,7 +16,7 @@ def random_id():
 
 def status():
 
-    print("Qual o status dessa notícia?:\n" \
+    print("Qual o status dessa notícia? :\n" \
         "[1] - Verdadeiro\n[2] - Falso\n[3] - Não checado")  #função para facilitar na checagem do status, evitando diferentes convenções de escrita
     Status = None
     while Status is None:
@@ -160,7 +160,6 @@ def consultar_noticias():
             dados = json.load(arquivo)
             for id, info in dados.items():
                 print(f"ID: {id}\nTítulo: {info['Título']}\nURL: {info['Url']}\nStatus: {info['Status']}\n")
-
 
             if not dados:
                 raise Exception
