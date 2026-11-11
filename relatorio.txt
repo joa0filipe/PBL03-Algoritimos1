@@ -1,0 +1,4 @@
+Total de notícias: 6
+Verdadeiro 4 --> 66.67% do total 
+Não checado 2 --> 33.33% do total 
+Falso 0 --> 0.00% do total
